@@ -37,7 +37,7 @@ function Navbar(){
         <>
         <Nav className="navbar navbar-expand-lg navbar-light">
             <Container className="container-fluid">
-                <Title className="" ><strong>RYCA</strong></Title>
+                <Title className="" ><strong>RYCA SHOP</strong></Title>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>

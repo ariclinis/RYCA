@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from "@fortawesome/free-solid-svg-icons"
+import { faCheck } from "@fortawesome/free-solid-svg-icons"
 import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 
@@ -16,6 +16,9 @@ const Footerfull = styled.div`
 const P = styled.p`
     margin-top:20px;
     font-weight: bold;
+`
+const Input = styled.input`
+
 `
 const Icons = styled.div``
 function Footer(params) {
@@ -48,6 +51,10 @@ function Footer(params) {
                 </div>
                 <div class="col-3">
                     <P>Receba Avisos</P>
+                    <div class="row">
+                    <Input type="email" className="form-control col-9" id="exampleFormControlInput1" placeholder="name@example.com" />
+                    <button type="submit" class="btn btn-primary "><FontAwesomeIcon icon={faCheck} /></button>
+                    </div>
                 </div>
                 <div class="col-3">
 

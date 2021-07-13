@@ -16,7 +16,7 @@ function Home(){
     <>
     <div class="container-fluid">
           <div >
-              <Centralimage />
+              <Centralimage /> 
           </div>
         
           <Essenciais className="row d-flex justify-content-center">
