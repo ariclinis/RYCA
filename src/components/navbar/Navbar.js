@@ -47,10 +47,10 @@ function Navbar(){
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <Item className="nav-link" href="#">LOJA</Item>
+                            <Item className="nav-link" href="#">Loja</Item>
                         </li>
                         <li className="nav-item">
-                            <Item className="nav-link" href="#">SOBRE</Item>
+                            <Item className="nav-link" href="#">Sobre</Item>
                         </li>
                     </ul>
                 </Menu>

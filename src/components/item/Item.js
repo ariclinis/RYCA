@@ -4,7 +4,7 @@ function Item(props) {
     return(
         <>
             <div>
-                <Image src={props.src} alt="Beleza não processada" height={320} width={190} />
+                <Image src={props.src} alt="Beleza não processada" height={410} width={298} />
             </div>
         </>
     )

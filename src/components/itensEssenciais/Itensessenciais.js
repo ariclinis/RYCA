@@ -5,9 +5,13 @@ import imgErica3 from '../../../public/erica5.png'
 import styled from "styled-components"
 
 const titulo = styled.div`
+`
+const Footerimage = styled.div`
+background-color: #634938;
+color:white;
 
 `
-function Itensessenciais(params) {
+function Itensessenciais() {
     return(
         
         <>
@@ -26,16 +30,26 @@ function Itensessenciais(params) {
                     </div>
                 </div>
             </div>
+            
             <div class="p-2 bd-highlight">
-                <div class="d-flex flex-row">
+                <div class="d-flex  flex-row">
                     <div class="p-2">
                         <Item src={imgErica}/>
+                        <Footerimage className="d-flex p-2 justify-content-center">
+                            Conjunto Executiva
+                        </Footerimage>
                     </div>
                     <div class="p-2">
                         <Item src={imgErica2}/>
+                        <Footerimage className="d-flex p-2 justify-content-center">
+                            Vestido de Gala
+                        </Footerimage>
                     </div>
                     <div class="p-2">
                         <Item src={imgErica3}/>
+                        <Footerimage className="d-flex p-2 justify-content-center">
+                            Vestido de Gala
+                        </Footerimage>
                     </div>
                 </div>
             </div>
