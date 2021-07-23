@@ -28,7 +28,7 @@ const Painel = styled.div`
     height: 100px;
     width: 400px;
     margin-top:10%;
-    margin-left: 40%;
+    justify-content: center;
     background: white;
     opacity: 0.8;
     padding-top: 20px;
@@ -70,7 +70,7 @@ const Painelvideos = styled.div`
 function Centralimage(){
     return(
         <Container className="">
-            <div class="row">
+            <div class="row po">
                     <div class="col-12" class="no-margin">
                         <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=k6L6JCa1TLA' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
                         <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
@@ -80,11 +80,12 @@ function Centralimage(){
                         <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=k6L6JCa1TLA' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
                         <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
                         <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
-                        <Painel>
-                            <Titulo><strong>PRIMAVERA E VERÃO</strong></Titulo>
-                            <Btn className="primary-color">Comprar</Btn>
-                        </Painel>
+                        
                     </div>
+                    <Painel>
+                        <Titulo><strong>PRIMAVERA & VERÃO</strong></Titulo>
+                        <Btn className="primary-color">Comprar</Btn>
+                    </Painel>
             </div>
             <div class="row">
                 <Frete className="primary-color">
