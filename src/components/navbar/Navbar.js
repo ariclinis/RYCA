@@ -4,11 +4,9 @@ import styled from 'styled-components'
 const Nav = styled.nav`
     height:75px;
     width:100%;
-    background-color: #634938;
     
 `
 const Container = styled.div`
-    background-color: #634938;
 `
 const Title = styled.h3`
     color: #FFFF;
@@ -35,8 +33,8 @@ const Item = styled.a`
 function Navbar(){
     return (
         <>
-        <Nav className="navbar navbar-expand-lg navbar-light">
-            <Container className="container-fluid">
+        <Nav className="navbar navbar-expand-lg navbar-light primary-color">
+            <Container className="container-fluid primary-color">
                 <Title className="" ><strong>RYCA SHOP</strong></Title>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

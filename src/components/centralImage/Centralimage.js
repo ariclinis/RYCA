@@ -8,7 +8,7 @@ const nao =false
 const h=340;
 const Container = styled.div`
     float:left;
-    margin-left: 0;
+    margin: 0;
     width:100%;
     padding:0;
     border:0;
@@ -43,7 +43,6 @@ const Titulo = styled.p`
 const Btn = styled.button`
     width:200px;
     position: relative;
-    background-color:#634938;
     color: white;
     &:hover{
         background-color:white;
@@ -51,7 +50,6 @@ const Btn = styled.button`
     }
 `
 const Frete = styled.div`
-    background-color:#634938;
     color: white;
     height:25px;
     width: 100%;
@@ -60,26 +58,36 @@ const Frete = styled.div`
         text-align:center;
     }
 `
+const Painelvideos = styled.div`
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    margin-top:0;
+    margin-left: 0;
+`
+
+
 function Centralimage(){
     return(
         <Container className="">
             <div class="row">
-                <ReactPlayer url='https://www.youtube.com/watch?v=k6L6JCa1TLA' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
-                <ReactPlayer url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
-                <ReactPlayer url='https://www.youtube.com/watch?v=OJWbMLJVXQI' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
-                <ReactPlayer url='https://www.youtube.com/watch?v=GDHSVo8mvGs' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
-                <ReactPlayer url='https://www.youtube.com/watch?v=gYDvwriE2P4' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
-                <ReactPlayer url='https://www.youtube.com/watch?v=k6L6JCa1TLA' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
-                <ReactPlayer url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
-                <Painel>
-                    <div >
-                        <Titulo><strong>PRIMAVERA E VERÃO</strong></Titulo>
-                        <Btn className="">Comprar</Btn>
+                    <div class="col-12" class="no-margin">
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=k6L6JCa1TLA' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=OJWbMLJVXQI' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=GDHSVo8mvGs' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=gYDvwriE2P4' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=k6L6JCa1TLA' controls={nao} muted={true} playing={sim} loop={true} width={190} height={h} />
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
+                        <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=AUJ2RsaqPmQ' controls={nao} muted={true} playing={sim} loop={true} width={192} height={h}/>
+                        <Painel>
+                            <Titulo><strong>PRIMAVERA E VERÃO</strong></Titulo>
+                            <Btn className="primary-color">Comprar</Btn>
+                        </Painel>
                     </div>
-                </Painel>
             </div>
             <div class="row">
-                <Frete>
+                <Frete className="primary-color">
                         <p>PORTES INCLUÍDOS PARA PORTUGAL</p>
                 </Frete>
             </div>

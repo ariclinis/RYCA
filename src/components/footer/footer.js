@@ -5,7 +5,6 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 const Footerfull = styled.div`
-    background-color:#634938;
     margin:0;
     height:180px;
     width:100%;
@@ -23,7 +22,7 @@ const Input = styled.input`
 const Icons = styled.div``
 function Footer(params) {
     return(
-        <Footerfull className="row">
+        <Footerfull className="row primary-color">
                 <div class="col-3">
                     <P>RYCA SHOP</P>
                     <div class="row">

@@ -7,7 +7,7 @@ import styled from "styled-components"
 const titulo = styled.div`
 `
 const Footerimage = styled.div`
-background-color: #634938;
+
 color:white;
 
 `
@@ -34,20 +34,20 @@ function Itensessenciais() {
             <div class="p-2 bd-highlight">
                 <div class="d-flex  flex-row">
                     <div class="p-2">
-                        <Item src={imgErica}/>
-                        <Footerimage className="d-flex p-2 justify-content-center">
+                        <Item src={imgErica} h={410} w={298} />
+                        <Footerimage className="primary-color d-flex p-2 justify-content-center">
                             Conjunto Executiva
                         </Footerimage>
                     </div>
                     <div class="p-2">
-                        <Item src={imgErica2}/>
-                        <Footerimage className="d-flex p-2 justify-content-center">
+                        <Item src={imgErica2} h={410} w={298}/>
+                        <Footerimage className="primary-color d-flex p-2 justify-content-center">
                             Vestido de Gala
                         </Footerimage>
                     </div>
                     <div class="p-2">
-                        <Item src={imgErica3}/>
-                        <Footerimage className="d-flex p-2 justify-content-center">
+                        <Item src={imgErica3} h={410} w={298}/>
+                        <Footerimage className="primary-color d-flex p-2 justify-content-center">
                             Vestido de Gala
                         </Footerimage>
                     </div>
